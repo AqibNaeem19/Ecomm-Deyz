@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import Announcement from '../components/Announcement';
 import Navbar from '../components/Navbar';
 import Newsletter from '../components/Newsletter';
+import AddOutlinedIcon from '@mui/icons-material/AddOutlined';
+import RemoveOutlinedIcon from '@mui/icons-material/RemoveOutlined';
 
 
 const Container = styled.div`
@@ -150,8 +152,9 @@ const Product = () => {
           </FilterContainer>
           <AddContainer>
             <AmountContainer>
-            
+              <RemoveOutlinedIcon style={{ cursor: 'pointer'}} />
               <Amount>1</Amount>
+              <AddOutlinedIcon style={{ cursor: 'pointer'}} />
             </AmountContainer>
             <Button>ADD TO CART</Button>
           </AddContainer>

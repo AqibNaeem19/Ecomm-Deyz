@@ -81,6 +81,7 @@ const ProductList = () => {
         </Filter>
       </FilterContainer>
       <Products />
+      <Newsletter />
 
     </Container>
   )
